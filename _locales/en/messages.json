@@ -1,0 +1,38 @@
+{
+  "extension_name": {
+    "message": "Disable Youtube comments",
+    "description": "extension name"
+  },
+  "extension_description": {
+    "message": "Protect your sanity by disabling comments on any youtube video",
+    "description": "Description of the extension"
+  },
+  "comments_disabled": {
+    "message": "Comments Disabled",
+    "description": "Title content injected"
+  },
+  "alt_image_brain": {
+    "message": "Brain illustration with crossed legs meditating | Designed by Freepik",
+    "description": "description for accessibility"
+  },
+  "button_show_comments_text": {
+    "message": "Show comments",
+    "description": "text displayed inside the show comments button"
+  },
+  "popup_hint": {
+    "message": "* Refresh a page to apply the settings",
+    "description": "Tip that is displayed inside the popup"
+  },
+  "popup_hide_comments": {
+    "message": "Hide comments",
+    "description": "option hide comments"
+  },
+  "popup_hide_content": {
+    "message": "Display illustration and \"Show comments\" button",
+    "description": "option display button"
+  },
+  "popup_footer": {
+    "message": "Are you interested in this extension? Contribute!",
+    "description": "Text displayed at the bottom of the popup"
+  }
+}

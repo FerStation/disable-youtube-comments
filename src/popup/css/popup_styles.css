@@ -1,0 +1,45 @@
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../fonts/NotoSans-Bold.ttf");
+}
+
+
+h6{
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.header img{
+  margin-right: 6px;
+}
+
+.no-shadows {
+  box-shadow: none !important;
+}
+
+.card {
+  margin: 0;
+  padding: 0;
+}
+
+.switch label input[type=checkbox]:checked+.lever {
+background-color: #ef5350 ;
+}
+
+.switch label input[type=checkbox]:checked+.lever:after {
+background-color: #f44336;
+}
+
+.section{
+vertical-align: middle;
+}
+
+.row{
+  margin-bottom: 0;
+}

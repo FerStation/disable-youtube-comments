@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="css/popup_styles.css">
+</head>
+
+
+<body class="container" style="width: 350px;">
+
+  <div class="card no-shadows">
+    <div class="section">
+      <h6 class="margin header"><img src="../../icons/icon128.png" width="35">Disable Youtube comments</h6>
+    </div>
+    <div class="divider"></div>
+    
+    <div class="card-content">
+      <p data-locale="popup_hint">* Refresh a page to apply the settings</p>
+      <br>
+      <div class="collection">
+        <div href="#!" class="collection-item"><span class="badge">
+            <div class="switch ">
+              <label>
+                <input type="checkbox" id="hide_comments">
+                <span class="lever"></span>
+              </label>
+            </div>
+          </span><span data-locale="popup_hide_comments">Hide comments</span></div>
+
+        <div href="#!" class="collection-item"><span class="badge">
+            <div class="switch">
+              <label>
+                <input type="checkbox" id="hide_content">
+                <span class="lever"></span>
+              </label>
+            </div>
+          </span><span data-locale="popup_hide_content">Display illustration and "Show comments" button</span></div>
+      </div>
+    </div>
+
+    <div class="card-action blue-grey lighten-5">
+      <div class="row">
+        <div class="col s8" data-locale="popup_footer">Are you interested in this extension? Contribute!</div>
+        <div class="col s4">
+          <a href="https://github.com/fernandobrscunha/disable-youtube-comments" target="_blank"><img src="./img/git.png" alt="" width="40"
+              class="right"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="js/materialize.min.js"></script>
+
+  <!-- script -->
+  <script src="popup_script.js"></script>
+
+</body>
+
+</html>

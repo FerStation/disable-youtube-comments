@@ -1,0 +1,39 @@
+{
+  "extension_name": {
+    "message": "Disable Youtube comments",
+    "description": "Nome da extensao"
+  },
+  "extension_description": {
+    "message": "Proteja a sua sanidade mental desativando os comentários em qualquer vídeo do youtube",
+    "description": "Descrição da extensão"
+  },
+  "comments_disabled": {
+    "message": "Comentários Desativados",
+    "description": "Título do conteúdo injetado"
+  },
+  "alt_image_brain": {
+    "message": "Ilustração do cérebro com pernas cruzadas meditando | Designed by Freepik",
+    "description": "descrição para acessibilidade"
+  },
+  "button_show_comments_text": {
+    "message": "Mostrar comentários",
+    "description": "texto exibido dentro do botão mostrar comentários"
+  },
+  "popup_hint": {
+    "message": "* Atualize a página para aplicar as configurações",
+    "description": "Dica que é exibida dentro do popup"
+  },
+  "popup_hide_comments": {
+    "message": "Esconder comentários",
+    "description": "opção esconder comentários"
+  },
+  "popup_hide_content": {
+    "message": "Exibir ilustração e botão \"Mostra comentários\"",
+    "description": "opção exibir botão"
+  },
+  "popup_footer": {
+    "message": "Ficou interessado nessa extensão? Contribua!",
+    "description": "Texto exibido no rodapé do popup"
+  }
+  
+}

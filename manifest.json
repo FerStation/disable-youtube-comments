@@ -1,0 +1,40 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_extension_name__",
+  "short_name": "disable-youtube-comments",
+  "version": "0.0.1",
+
+  "description": "__MSG_extension_description__",
+  "homepage_url": "https://github.com/fernandobrscunha/disable-youtube-comments",
+
+  "default_locale": "en",
+
+  "permissions": [
+    "storage"
+  ],
+
+  "icons": {
+    "128": "icons/icon128.png" 
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["src/content/content_script.js"],
+      "css": [ "src/content/styles.css"],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/icon128.png",
+    "default_title": "Disable Youtube Comments",
+    "default_popup": "src/popup/config_popup.html"
+  },
+
+  "web_accessible_resources": [
+    "src/content/*"
+  ]
+
+}

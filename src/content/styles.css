@@ -1,0 +1,35 @@
+#content_no_comments-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#content_no_comments-title{
+  font-size: var(--yt-navbar-title-font-size, 1.8rem);
+  font-weight: 400;
+  line-height: var(--yt-navbar-title-line-height, 2.4rem);
+  color: var(--ytd-video-primary-info-renderer-title-color, var(--yt-spec-text-primary));
+  font-family: var(--ytd-video-primary-info-renderer-title-font-family,);
+  font-size: var(--ytd-video-primary-info-renderer-title-font-size, var(--yt-navbar-title-font-size, inherit));
+  font-variant: var(--ytd-video-primary-info-renderer-title-font-variant, inherit);
+  text-shadow: var(--ytd-video-primary-info-renderer-title-text-shadow, none);
+  margin-bottom: 10px;
+}
+
+#button-show-comments{
+  background: var(--yt-spec-brand-button-background);
+  border: none;
+  border-radius: 2px;
+  color: var(--yt-spec-static-brand-white);
+  padding: var(--yt-button-padding);
+  margin: auto var(--ytd-subscribe-button-margin, 4px);
+  white-space: nowrap;
+  font-weight: 700;
+  letter-spacing: var(--ytd-tab-system_-_letter-spacing);
+  text-transform: var(--ytd-tab-system_-_text-transform);
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  cursor: pointer;
+}
