@@ -41,4 +41,4 @@ Click in "This Firefox" and "Load Temporary Add-on...", select manifest file
 ![Firefox tutorial](https://i.imgur.com/NAPMUgf.png)
 
 ## License
-This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/)
+This project is licensed under the [MIT](./LICENSE)
