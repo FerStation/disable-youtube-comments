@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "__MSG_extension_name__",
   "short_name": "disable-youtube-comments",
   "version": "0.0.1",
@@ -11,6 +11,10 @@
 
   "permissions": [
     "storage"
+  ],
+
+  "host_permissions": [
+    "https://www.youtube.com/*"
   ],
 
   "icons": {
@@ -27,14 +31,17 @@
     }
   ],
 
-  "browser_action": {
+  "action": {
     "default_icon": "icons/icon128.png",
     "default_title": "Disable Youtube Comments",
     "default_popup": "src/popup/config_popup.html"
   },
 
   "web_accessible_resources": [
-    "src/content/*"
+    {
+      "resources": ["src/content/*"],
+      "matches": ["https://www.youtube.com/*"]
+    }
   ]
 
 }
